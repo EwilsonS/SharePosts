@@ -17,6 +17,9 @@
           <ul class="navbar-nav ml-auto">
             <?php if(isset($_SESSION['user_id'])) : ?>
             <li class="nav-item">
+              <span class="nav-link active" href="#">Welcom <?php echo $_SESSION['user_name']; ?></span>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="<?php echo URLROOT; ?>/users/logout">Logout</a>
             </li>
             <?php else : ?>
@@ -26,7 +29,7 @@
             <li class="nav-item">
               <a class="nav-link" href="<?php echo URLROOT; ?>/users/login">Login</a>
             </li>
-<?php endif; ?>
+          <?php endif; ?>
           </ul>
         </div>
       </div>
