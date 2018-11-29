@@ -58,7 +58,7 @@
                 }
             }
 
-            $this->stmt->bindVAlue($param, $value, $type);
+            $this->stmt->bindValue($param, $value, $type);
         }
 
         //Execute the prepared statement
@@ -79,7 +79,7 @@
         }
 
         //Get Row Count
-        public function rouwCount(){
+        public function rowCount(){
             return $this->stmt->rowCount();
         }
 
