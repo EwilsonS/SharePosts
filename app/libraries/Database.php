@@ -8,13 +8,13 @@
     */
 
     class Database {
-        $url = getenv('JAWSDB_URL');
-        $dbparts = parse_url($url);
+        // $url = getenv('JAWSDB_URL');
+        // $dbparts = parse_url($url);
 
-        $hostname = $dbparts['y06qcehxdtkegbeb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	'];
-        $username = $dbparts['xdi451c76lr33whn'];
-        $password = $dbparts['ehq5appcgg7gsm3y'];
-        $database = ltrim($dbparts['i4wapn8jlpv7h5qq'],'/');
+        // $hostname = $dbparts['y06qcehxdtkegbeb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com	'];
+        // $username = $dbparts['xdi451c76lr33whn'];
+        // $password = $dbparts['ehq5appcgg7gsm3y'];
+        // $database = ltrim($dbparts['i4wapn8jlpv7h5qq'],'/');
 
         private $host = DB_HOST;
         private $user = DB_USER;
