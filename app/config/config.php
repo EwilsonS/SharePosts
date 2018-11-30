@@ -9,7 +9,7 @@
     define('APPROOT', dirname(dirname(__FILE__)));
 
     //URL Root
-    define('URLROOT','https://limitless-bayou-30385.herokuapp.com');
+    define('URLROOT','https://limitless-bayou-30385.herokuapp.com/');
     
     //site name
     define('SITENAME', 'SharePosts');
