@@ -1,10 +1,9 @@
 # SharePosts
 <img src="./public/images/shareposts.PNG" width="200px">
-<p>This is a simple social network built using my [MVC framework for PHP](https://github.com/EwilsonS/wilsonmvcphp)</p>
-<p>All forms are **validated** and **sanitized** to prevent harmful scripts</p>
-<p>Form fields use flash messages to alert the user of any errors
-<p>Only logged in users may see/add/edit posts</p>
-<br>
+This is a simple social network built using my [MVC framework for PHP](https://github.com/EwilsonS/wilsonmvcphp) <br>
+All forms are **validated** and **sanitized** to prevent harmful scripts<br>
+Form fields use flash messages to alert the user of any errors<br>
+Only logged in users may see/add/edit posts<br>
 
 ## Here's how it works
 * Register 
