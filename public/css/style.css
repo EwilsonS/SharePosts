@@ -1,0 +1,12 @@
+html,
+body{
+    background: linear-gradient(to bottom right, #beedff, #ffd3be);
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+}
+
+.jumbotron,
+.card{
+    box-shadow: 5px 5px 12px 0px rgba(80, 80, 80, 0.267);
+}
