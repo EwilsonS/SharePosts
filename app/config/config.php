@@ -1,6 +1,6 @@
 <?php
     // $url = getenv('JAWSDB_URL');
-    define('url',"getenv('JAWSDB_URL')")
+    // define('url',"getenv('JAWSDB_URL')")
     //DB Params
     define('DB_HOST', 'y06qcehxdtkegbeb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
     define('DB_USER', 'xdi451c76lr33whn');
