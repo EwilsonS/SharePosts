@@ -1,5 +1,5 @@
 # SharePosts
-<img src="./public/images/shaareposts.PNG" width="200px">
+<img src="./images/shaareposts.PNG" width="200px">
 <p>This is a simple social network built using my [MVC framework for PHP](https://github.com/EwilsonS/wilsonmvcphp)</p>
 <p>All forms are **validated** and **sanitized** to prevent harmful scripts</p>
 <p>Form fields use flash messages to alert the user of any errors
