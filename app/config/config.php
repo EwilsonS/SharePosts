@@ -1,9 +1,9 @@
 <?php
     //DB Params
-    define('DB_HOST', 'localhost');
-    define('DB_USER', 'root');
-    define('DB_PASS', 'kalamazoo123');
-    define('DB_NAME', 'shareposts');
+    define('DB_HOST', 'y06qcehxdtkegbeb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
+    define('DB_USER', 'xdi451c76lr33whn');
+    define('DB_PASS', 'ehq5appcgg7gsm3y');
+    define('DB_NAME', 'i4wapn8jlpv7h5qq');
     
     //App Root
     define('APPROOT', dirname(dirname(__FILE__)));
