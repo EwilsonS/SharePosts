@@ -104,7 +104,7 @@
                       'email' => trim($_POST['email']),
                       'password' => trim($_POST['password']),
                       'email_err' => '',
-                      'password_err' => '',
+                      'password_err' => ''
                   ];
   
                   //Validate email
@@ -120,6 +120,7 @@
                   //Check for user/email
                   if($this->userModel->findUserByEmail($data['email'])){
                       //user found
+                    // $this->view('posts/index', $data);
                   }else{
                       // User not found
                       $data['email_err'] = 'User not found';
@@ -149,7 +150,7 @@
                     'email' => '',
                     'password' => '',
                     'email_err' => '',
-                    'password_err' => '',
+                    'password_err' => ''
                 ];
 
                 //Load view
