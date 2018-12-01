@@ -120,7 +120,7 @@
                   //Check for user/email
                   if($this->userModel->findUserByEmail($data['email'])){
                       //user found
-                    $this->view('posts/index', $data);
+                    // $this->view('posts/index', $data);
                   }else{
                       // User not found
                       $data['email_err'] = 'User not found';
