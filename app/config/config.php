@@ -1,15 +1,15 @@
 <?php
     //DB Params
-    define('DB_HOST', 'y06qcehxdtkegbeb.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
-    define('DB_USER', 'y9g8hwat6pa22eed');
-    define('DB_PASS', 'wfd3wdljn4qtoy2q');
-    define('DB_NAME', 'x8iaakv6u5hlrr1t');
+    define('DB_HOST', 'cis9cbtgerlk68wl.cbetxkdyhwsb.us-east-1.rds.amazonaws.com');
+    define('DB_USER', 'ir7frj1euttdxjiz');
+    define('DB_PASS', 'uzxpgno9cflxgtyd');
+    define('DB_NAME', 'zaun4qwabgqn7nq3');
     
     //App Root
     define('APPROOT', dirname(dirname(__FILE__)));
 
     //URL Root
-    define('URLROOT','https://limitless-bayou-30385.herokuapp.com');
+    define('URLROOT','https://share-posts.herokuapp.com/');
     
     //site name
     define('SITENAME', 'SharePosts');
