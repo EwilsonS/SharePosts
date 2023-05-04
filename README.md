@@ -1,4 +1,4 @@
-# [SharePosts](https://limitless-bayou-30385.herokuapp.com)
+# [SharePosts](https://share-posts.herokuapp.com/)
 <img src="./public/images/shareposts.PNG" width="200px">
 This is a simple social network built using my 
 
