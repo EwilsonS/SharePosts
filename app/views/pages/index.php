@@ -6,7 +6,7 @@
             <p class="text-center">Created by Evan Wilson</p>
             <p>
                 <small>
-                    login with guest account 
+                    login with guest account below OR create your own!
                     <br>email: guest@gmail.com 
                     <br>password: 123456
                 </small>
