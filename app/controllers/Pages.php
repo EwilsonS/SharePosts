@@ -10,7 +10,7 @@
             }
             $data = [
                 'title' => 'SharePosts',
-                'description' => 'Simple social network built on the WilsonMVC PHP framework'
+                'description' => 'Simple social network PHP/MySQL'
             ];
 
             $this->view('pages/index', $data);
